@@ -1,0 +1,5 @@
+s3_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+s3_secret: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+s3_bucket: jablko3-com
+gzip: true
+cloudfront_distribution_id: <%= ENV['CLOUDFRONT_ID'] %>
